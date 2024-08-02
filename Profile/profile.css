@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(maindiv.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    height: 80%;
+    width: 85%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 15px 14px 16px rgba(223, 145, 145, 0.5);
+}
+.profile header{
+    height:90px;
+    background-color: aqua;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: aliceblue;
+}
+.one{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.two{
+    height: 100%;
+    width: 70%;
+    display:flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    padding-right: 200px;
+    box-sizing: border-box;
+}
+.two a{
+    width: 90px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.bos{
+    color: rgba(183, 34, 34, 0.75);
+    cursor: pointer;
+}
+
+.profile main{
+    height: 558px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    border-radius: 10px;
+}
+.three{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.three .sub{
+    height: 420px;
+    width: 340px; 
+    border-radius: 50%;
+    background-image: url(pk.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.four{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: white;
+    padding-top: 125px;
+    padding-bottom:120px;
+}
+.four h1{
+    font-size: 50px;
+}
+.four h1 a{
+    text-decoration: none;
+    color: rgba(183, 34, 34, 0.75);
+}
+.four h2{
+    font-size: 36px;
+}
+.four h2 a{
+    text-decoration: none;
+    color: rgba(183, 34, 34, 0.75);
+}
+.four p{
+    font-size: large;
+    font-weight: 549;
+    text-shadow: 1px 1px 2px rgb(186, 155, 96);
+    
+}
+.four span{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span a{
+   height: 40px;
+   width: 40px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-decoration: none;
+   color:rgba(156, 77, 77, 0.65);
+   border-radius: 50%;
+   border: 2px solid  rgba(183, 34, 34, 0.75);
+   cursor: pointer;
+}
+span a i{
+    font-size: larger;
+}
+.four button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-bottom: -20px;
+    border: 2px solid rgba(183, 34, 34, 0.75);
+    background-color: transparent;
+    color: rgba(183, 34, 34, 0.75);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:800px) and (max-height:700px){
+    body{
+        height: 648px;
+        width: 100%;
+    }
+    .profile{
+        height: 70%;
+        width: 92%;
+        overflow: hidden;
+        
+    }
+    .profile header{
+        width: 100%;
+        height: 45px;
+        font-size: 8px;
+        
+    }
+    .one{
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .two{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+
+        
+    }
+    .profile main{
+        height: 410px;
+         width: 100%;
+    }
+    .three{
+        height:100%;
+        width: 30%;
+        display: flex;
+
+    }
+   .three .sub{
+        height: 110px;
+        width: 90px;
+        border-radius:50%;
+        background-size:cover;
+    }
+    .four{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+        margin: 0px;
+    }
+    .four h1{
+        font-size: xx-large;
+        margin-bottom: 10px;
+    }
+    .four h2{
+        font-size: x-large;
+
+    }
+    .four p{
+        font-size: 10px;
+        text-shadow: none;
+        opacity: .79;
+    }
+    .four span{
+        height: 20px;
+        width:100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .four span a{
+        height: 27px;
+        width: 27px;
+        margin-right: 10px;
+    
+    }
+    .four button{
+        height: 30px;
+        width: 140px;
+        font-size: medium;
+        margin-top: 15px;
+    }
+} 
