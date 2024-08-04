@@ -78,6 +78,9 @@ body{
     background-size: cover;
     margin-bottom: 50px;
 }
+.sub:hover{
+      box-shadow: 6px 8px 25px 18px rgba(183, 34, 34, 0.5);
+}
 .four{
     height: 100%;
     width: 70%;
