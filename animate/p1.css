@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+
+}
+.one{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 16px 16px 20px rgb(140, 99, 99);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(
+        RED 20deg,
+        transparent 120deg 
+    );
+    display: flex;
+    position: absolute;
+    animation:ones .6s linear infinite;
+    
+}
+.one::after{
+    content: "Prabin Karki";
+    height: 290px;
+    width: 290px;
+    position: absolute;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-shadow: 1px 1px 4px rgb(163, 130, 130) ;
+    letter-spacing: 4px;
+    font-weight: 580;
+    color:rgba(202, 24, 24, 0.5)
+    
+
+}
+@keyframes ones {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
