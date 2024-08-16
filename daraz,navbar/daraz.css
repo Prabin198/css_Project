@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+    
+
+
+.navbar{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 82, 19);
+  justify-content: flex-start;
+  flex-direction: column;
+  
+  
+
+
+}
+.why{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    
+margin-left: -780px;
+}
+.why a{
+    text-decoration: none;
+    color:#fff;
+    padding-left: 20px;
+    font-size: smaller;
+    margin-top: 6px;
+
+    
+}
+.why a:hover{
+    text-decoration: underline;
+}
+.how{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+    
+}
+.how .icon{
+    background-image: url(e6ac6883-1158-4663-bda4-df5a1aa066e5.png);
+    height: 48px;
+    width: 120px;
+    background-size: cover;
+    display: flex;
+    justify-self: start;
+
+}
+.Categories
+{
+   margin-left: 10px;
+   margin-right: 10px;
+   
+}
+.Categories select{
+    background:none;
+    border: none;
+    color: #fff;
+    font-size: medium;
+    font-weight: 600;
+}
+.search{
+    display: flex;
+    height: 39px;
+    width: 726px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.search .one{
+    height: 100%;
+    width: 690px;
+    border: border-box;
+    outline: none;
+    box-shadow: none;
+    
+}  
+.search .one input{
+    height: 100%;
+    width: 690px;
+    border-radius: 10px;
+    border:none;
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+.two {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-20px, 3px);
+    background-color: rgb(251, 204, 211);
+    width:90px;
+    border-radius: 10px;
+    height: 35px;
+    
+}
+.two i{
+    align-self: center;
+   color:red
+    
+    
+
+
+}
+.login{
+    display: flex;
+    height: 40px;
+    width: 238px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login button{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+button i{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-right: 4px;
+}
+ .but{
+    padding-top: 10px;
+}
+.globe{
+    background:none;
+    color: #fff;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.globe select {
+    background: none;
+    border: none;
+    padding-left: 4px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: smaller;
+}
+
+
+.globe i{
+    font-size:x-large;
+    padding-left: 4px;
+    padding-top: 10px;
+}
+.how .cart i{
+    font-size: xx-large;
+    color: #fff;
+    padding-left: 10px;
+}
